@@ -19,7 +19,7 @@ namespace LegoVR
             {
                 _parent = value;
                 _parent.AddChild(this);
-                transform.parent = _parent.transform;
+                transform.SetParent(_parent.transform,true);
             }
         }
 
