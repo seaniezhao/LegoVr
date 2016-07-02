@@ -133,6 +133,7 @@
      <Compile Include="Assets\Scripts\ObjectPiece\PieceParent.cs" />
      <Compile Include="Assets\Scripts\ObjectPiece\ShapePiece.cs" />
      <Compile Include="Assets\Scripts\Startup.cs" />
+     <Compile Include="Assets\Scripts\utility\Asset.cs" />
      <Compile Include="Assets\Scripts\utility\AssetManager.cs" />
      <None Include="Assets\LeapAssets\LeapMotion\Resources\LeapCG.cginc" />
      <None Include="Assets\LeapAssets\LeapMotion\README_BEFORE_UPDATING.txt" />
