@@ -5,7 +5,7 @@ using System.Text;
 
 namespace LegoVR
 {
-    public class AssetManager 
+    public class AssetManager
     {
 
         private volatile static AssetManager _instance = null;
@@ -28,6 +28,10 @@ namespace LegoVR
         }
 
         private AssetManager() { }
+
+           
+
+
 
         //此处后面会分目录
         public object LoadPrefab(string name , Type type)

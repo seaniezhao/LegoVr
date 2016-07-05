@@ -19,13 +19,13 @@ namespace LegoVR
             {
                 _parent = value;
                 _parent.AddChild(this);
-                transform.parent = _parent.transform;
+                transform.SetParent(_parent.transform,true);
             }
         }
 
 
 
-        public void Merge(ShapePiece otherpiece)
+        public void Merge(ShapePiece otherpiece) 
         {
             if (Parent != null && otherpiece.Parent != null) //双方都已经组合过
             {
@@ -33,7 +33,7 @@ namespace LegoVR
             }
             else if (Parent != null)
             {
-                otherpiece.Parent = _parent;
+                otherpiece.Parent = _parent; 
             }
             else if (otherpiece.Parent != null)
             {
