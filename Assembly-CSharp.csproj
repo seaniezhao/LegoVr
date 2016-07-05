@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{29AD5E9C-36FD-FA24-DA6E-2FE550E77231}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -38,119 +39,120 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>D:/Program Files (x86)/Unity5/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>D:/Program Files (x86)/Unity5/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\LeapAssets\LeapC\Arm.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\Bone.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\CSharpExtensions.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\CircularObjectBuffer.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\ClockCorrelator.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\Config.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\Connection.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\Controller.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\Device.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\DeviceList.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\DistortionData.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\DistortionDictionary.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\Events.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\FailedDevice.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\FailedDeviceList.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\Finger.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\Frame.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\Hand.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\IController.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\Image.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\ImageData.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\ImageFuture.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\InteractionBox.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\LeapC.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\LeapQuaternion.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\LeapTransform.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\Logger.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\Matrix.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\MessageSeverity.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\ObjectPool.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\PendingImages.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\PooledObject.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\ServiceFrameFactory.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\StructMarshal.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\TimeBracket.cs" />
-     <Compile Include="Assets\LeapAssets\LeapC\Vector.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\HandFactory.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\HandPool.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\HandProxy.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\HandRepresentation.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\CapsuleHand.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\DebugHand.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\FingerModel.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\HandDrop.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\HandEnableDisable.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\HandFader.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\HandModel.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\HandTransitionBehavior.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\IHandModel.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\RigidFinger.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\RigidHand.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\SkeletalFinger.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\SkeletalHand.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\TestHandFactory.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\LeapDeviceInfo.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\LeapHandController.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\LeapImageRetriever.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\LeapProvider.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\LeapServiceProvider.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\DisconnectionNotice.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\EnableDepthBuffer.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\ExecutionOrder.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\FitHeightToScreen.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\FrameRateControls.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\KeyEnableBehaviors.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\KeyEnableGameObjects.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\LeapUnityExtensions.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\SceneSettings.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\SmoothedFloat.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\SmoothedQuaternion.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\SmoothedVector3.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\StretchToScreen.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\Utils.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\VR\EyeType.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\VR\LeapVRCameraControl.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\VR\LeapVRTemporalWarping.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\VR\TemporalWarpingStatus.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotionModules\PinchUtility\Examples\Scripts\MengerSponge.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotionModules\PinchUtility\Examples\Scripts\PinchDraw.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotionModules\PinchUtility\Examples\Scripts\VRHeightOffset.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotionModules\PinchUtility\Scripts\LeapPinchDetector.cs" />
-     <Compile Include="Assets\LeapAssets\LeapMotionModules\PinchUtility\Scripts\LeapRTS.cs" />
-     <Compile Include="Assets\Scripts\ObjectFactory\CubeFactory.cs" />
-     <Compile Include="Assets\Scripts\ObjectFactory\ObjFactory.cs" />
-     <Compile Include="Assets\Scripts\ObjectPiece\CubePiece.cs" />
-     <Compile Include="Assets\Scripts\ObjectPiece\PieceParent.cs" />
-     <Compile Include="Assets\Scripts\ObjectPiece\ShapePiece.cs" />
-     <Compile Include="Assets\Scripts\Startup.cs" />
-     <Compile Include="Assets\Scripts\utility\Asset.cs" />
-     <Compile Include="Assets\Scripts\utility\AssetManager.cs" />
-     <None Include="Assets\LeapAssets\LeapMotion\Resources\LeapCG.cginc" />
-     <None Include="Assets\LeapAssets\LeapMotion\README_BEFORE_UPDATING.txt" />
-     <None Include="Assets\LeapAssets\LeapMotionModules\PinchUtility\Examples\Shaders\LeapPinchLine.shader" />
-     <None Include="Assets\Plugins\LeapPlugin\donotdelete.txt" />
-     <None Include="Assets\LeapAssets\LeapMotion\readme.txt" />
-     <None Include="Assets\LeapAssets\LeapMotion\Dependencies.txt" />
-     <None Include="Assets\LeapAssets\LeapMotion\Resources\ThresholdOverlay.shader" />
-     <None Include="Assets\LeapAssets\LeapMotion\Resources\PassthroughForeground.shader" />
-     <None Include="Assets\LeapAssets\LeapMotion\Resources\PassthroughBackground.shader" />
-     <None Include="Assets\LeapAssets\LeapMotion\Version.txt" />
- <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
+    <Compile Include="Assets\LeapAssets\LeapC\Arm.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\Bone.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\CSharpExtensions.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\CircularObjectBuffer.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\ClockCorrelator.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\Config.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\Connection.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\Controller.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\Device.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\DeviceList.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\DistortionData.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\DistortionDictionary.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\Events.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\FailedDevice.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\FailedDeviceList.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\Finger.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\Frame.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\Hand.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\IController.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\Image.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\ImageData.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\ImageFuture.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\InteractionBox.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\LeapC.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\LeapQuaternion.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\LeapTransform.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\Logger.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\Matrix.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\MessageSeverity.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\ObjectPool.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\PendingImages.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\PooledObject.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\ServiceFrameFactory.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\StructMarshal.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\TimeBracket.cs" />
+    <Compile Include="Assets\LeapAssets\LeapC\Vector.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\HandFactory.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\HandPool.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\HandProxy.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\HandRepresentation.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\CapsuleHand.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\DebugHand.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\FingerModel.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\HandDrop.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\HandEnableDisable.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\HandFader.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\HandModel.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\HandTransitionBehavior.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\IHandModel.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\RigidFinger.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\RigidHand.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\SkeletalFinger.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\SkeletalHand.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Hands\TestHandFactory.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\LeapDeviceInfo.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\LeapHandController.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\LeapImageRetriever.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\LeapProvider.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\LeapServiceProvider.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\DisconnectionNotice.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\EnableDepthBuffer.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\ExecutionOrder.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\FitHeightToScreen.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\FrameRateControls.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\KeyEnableBehaviors.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\KeyEnableGameObjects.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\LeapUnityExtensions.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\SceneSettings.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\SmoothedFloat.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\SmoothedQuaternion.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\SmoothedVector3.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\StretchToScreen.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\Utils\Utils.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\VR\EyeType.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\VR\LeapVRCameraControl.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\VR\LeapVRTemporalWarping.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotion\Scripts\VR\TemporalWarpingStatus.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotionModules\PinchUtility\Examples\Scripts\MengerSponge.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotionModules\PinchUtility\Examples\Scripts\PinchDraw.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotionModules\PinchUtility\Examples\Scripts\VRHeightOffset.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotionModules\PinchUtility\Scripts\LeapPinchDetector.cs" />
+    <Compile Include="Assets\LeapAssets\LeapMotionModules\PinchUtility\Scripts\LeapRTS.cs" />
+    <Compile Include="Assets\Scripts\ObjectFactory\CubeFactory.cs" />
+    <Compile Include="Assets\Scripts\ObjectFactory\ObjFactory.cs" />
+    <Compile Include="Assets\Scripts\ObjectPiece\CubePiece.cs" />
+    <Compile Include="Assets\Scripts\ObjectPiece\PieceParent.cs" />
+    <Compile Include="Assets\Scripts\ObjectPiece\ShapeContorller.cs" />
+    <Compile Include="Assets\Scripts\ObjectPiece\ShapePiece.cs" />
+    <Compile Include="Assets\Scripts\Startup.cs" />
+    <Compile Include="Assets\Scripts\utility\Asset.cs" />
+    <Compile Include="Assets\Scripts\utility\AssetManager.cs" />
+    <None Include="Assets\LeapAssets\LeapMotion\Resources\LeapCG.cginc" />
+    <None Include="Assets\LeapAssets\LeapMotion\README_BEFORE_UPDATING.txt" />
+    <None Include="Assets\LeapAssets\LeapMotionModules\PinchUtility\Examples\Shaders\LeapPinchLine.shader" />
+    <None Include="Assets\Plugins\LeapPlugin\donotdelete.txt" />
+    <None Include="Assets\LeapAssets\LeapMotion\readme.txt" />
+    <None Include="Assets\LeapAssets\LeapMotion\Dependencies.txt" />
+    <None Include="Assets\LeapAssets\LeapMotion\Resources\ThresholdOverlay.shader" />
+    <None Include="Assets\LeapAssets\LeapMotion\Resources\PassthroughForeground.shader" />
+    <None Include="Assets\LeapAssets\LeapMotion\Resources\PassthroughBackground.shader" />
+    <None Include="Assets\LeapAssets\LeapMotion\Version.txt" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Program Files (x86)/Unity5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>D:/Program Files (x86)/Unity5/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -160,5 +162,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
 </Project>

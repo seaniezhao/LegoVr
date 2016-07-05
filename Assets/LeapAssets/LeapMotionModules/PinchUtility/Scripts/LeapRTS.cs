@@ -82,11 +82,11 @@ namespace Leap.Unity.PinchUtility {
       }
 
       if (_pinchDetectorA.IsPinching && _pinchDetectorB.IsPinching) {
-        transformDoubleAnchor();
+        //transformDoubleAnchor();
       } else if (_pinchDetectorA.IsPinching) {
-        transformSingleAnchor(_pinchDetectorA);
+        //transformSingleAnchor(_pinchDetectorA);
       } else if (_pinchDetectorB.IsPinching) {
-        transformSingleAnchor(_pinchDetectorB);
+        //transformSingleAnchor(_pinchDetectorB);
       }
 
       if (didUpdate) {
